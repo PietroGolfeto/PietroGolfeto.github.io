@@ -1,45 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    
-		<link href="./_app/immutable/assets/2.D9qCCtA8.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.CJR1VwC_.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.CCOSUjhf.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/runtime.-mgUMQ6S.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.BzE7wAVQ.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/render.DLlR-2qQ.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/disclose-version.CJ4EiInT.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.Dv-dWxXe.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.KCUinLZz.js">
-  </head>
-  <body>
-    <div id="svelte">
-      <!--[--><!--[--><!----><!----><main class="svelte-4xf6ln"><section class="hero svelte-4xf6ln"><h1 class="svelte-4xf6ln">Pietro Grazzioli Golfeto</h1> <div class="social-links svelte-4xf6ln"><a href="https://www.linkedin.com/in/pietro-golfeto-ba2429235/" target="_blank" rel="noopener noreferrer" class="svelte-4xf6ln"><img src="/icons/linkedin.svg" alt="LinkedIn" class="svelte-4xf6ln"></a> <a href="https://github.com/PietroGolfeto" target="_blank" rel="noopener noreferrer" class="svelte-4xf6ln"><img src="/icons/github.svg" alt="GitHub" class="svelte-4xf6ln"></a> <a href="mailto:pggolfeto@gmail.com" rel="noopener noreferrer" class="svelte-4xf6ln"><img src="/icons/gmail.svg" alt="Email" class="svelte-4xf6ln"></a></div> <h2>About Me</h2> <section class="about-me svelte-135ua28"><p class="aligned-text">I'm a computer science student at Unicamp with completion scheduled for July 2026 and a Undergraduate Researcher at the Hub for Artificial Intelligence and Cognitive Architectures (H.IAAC) at Unicamp.<br><br> I'm interested in artificial intelligence, data science and software development and I'm always looking for new projects to work on.</p></section><!----> <h2>Projects</h2> <section class="projects svelte-1kamnwk"><ul class="svelte-1kamnwk"><!--[--><li class="svelte-1kamnwk"><a href="https://github.com/PietroGolfeto/College_Salaries" target="_blank" rel="noopener noreferrer" class="svelte-1kamnwk"><strong>College Salaries</strong></a> - Data visualization project that explores the salaries of college graduates of different majors and universities across the US.</li><li class="svelte-1kamnwk"><a href="https://github.com/PietroGolfeto/mc536-grupoVIRUS" target="_blank" rel="noopener noreferrer" class="svelte-1kamnwk"><strong>Food Database Analysis</strong></a> - Data analysis project exploring the nutritional value of various foods, ranking them based on health metrics.</li><li class="svelte-1kamnwk"><a href="https://github.com/chemosymphony/chemosymphony.github.io" target="_blank" rel="noopener noreferrer" class="svelte-1kamnwk"><strong>Chemosymphony</strong></a> - NASA Space Apps 2024 project focused on chemosynthesis in an exoplanetary environment. Did the research and led the team.</li><!--]--></ul></section><!----></section></main><!----><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
-			
-			<script>
-				{
-					__sveltekit_m6huqi = {
-						base: new URL(".", location).pathname.slice(0, -1)
-					};
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pietro Grazzioli Golfeto</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 2.5rem;
+        }
+        p {
+            text-align: justify;
+        }
+        .social-links {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .social-links a {
+            margin: 0 15px;
+            display: inline-block;
+        }
+        .social-links img {
+            width: 32px;
+            height: 32px;
+            vertical-align: middle;
+        }
+        .projects-list {
+            list-style: none;
+            padding: 0;
+        }
+        .projects-list li {
+            background-color: #fafafa;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
 
-					const element = document.currentScript.parentElement;
+    <main>
+        <section class="hero">
+            <h1>Pietro Grazzioli Golfeto</h1>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/pietro-golfeto-ba2429235/" target="_blank" rel="noopener noreferrer">
+                    <img src="icons/linkedin.svg" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/PietroGolfeto" target="_blank" rel="noopener noreferrer">
+                    <img src="icons/github.svg" alt="GitHub">
+                </a>
+                <a href="mailto:pggolfeto@gmail.com" rel="noopener noreferrer">
+                    <img src="icons/gmail.svg" alt="Email">
+                </a>
+            </div>
+        </section>
 
-					const data = [null,null];
+        <h2>About Me</h2>
+        <section class="about-me">
+            <p>
+                I'm a Computer Science student at Unicamp (graduating July 2026) with a focus on Artificial Intelligence, and I'm currently applying my skills in both industry and academic research. As a Software Developer Intern at SiDi, I work on NLP and Speech Recognition solutions for Samsung's Bixby. In parallel, I am an Undergraduate Researcher at Unicamp's H.IAAC, using AI for financial modeling—finalizing a publication on Bayesian Optimization and starting new work in Reinforcement Learning. My background in mathematics, recognized by several national and international Olympiad awards, supports my work in these technical fields.
+            </p>
+        </section>
 
-					Promise.all([
-						import("./_app/immutable/entry/start.CJR1VwC_.js"),
-						import("./_app/immutable/entry/app.BzE7wAVQ.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 2],
-							data,
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		
-    </div>
-  </body>
+        <h2>Projects</h2>
+        <section class="projects">
+            <ul class="projects-list">
+                <li>
+                    <strong><a href="https://github.com/PietroGolfeto/DataSUS-Chikungunya-ML" target="_blank" rel="noopener noreferrer">Ethical AI for Chikungunya Outcome Prediction</a></strong>: Predicted hospitalization outcomes using models trained with nested cross-validation and resampling techniques to handle severe class imbalance. The project includes a comprehensive fairness analysis that mitigates demographic bias and achieves equitable performance with a minimal accuracy trade-off.
+                </li>
+                <li>
+                    <strong>Dynamic Credit Thresholding via Bayesian Optimization:</strong> My undergraduate research project, developed with Prof. Dr. Rafael Izbicki and Prof. Dr. Marcos M. Raimundo. This work introduces a framework to dynamically adapt credit scoring thresholds in non-stationary economic environments, tackling the challenge of concept drift. The system uses a Gaussian Process to model the financial loss function over time, guided by a custom, risk-aware acquisition function to make decisions. Tested on synthetic, FICO, and Lending Club data, the goal is to create an adaptive agent that minimizes long-term financial losses, outperforming traditional static models.
+                </li>
+                <li>
+                    <strong><a href="https://github.com/PietroGolfeto/mc536-grupoVIRUS" target="_blank" rel="noopener noreferrer">Food Database Analysis</a></strong>: This collaborative project involved developing a model to group foods by nutritional similarity, aiming to scientifically distinguish concepts like 'diet' vs. 'balanced.' I was responsible for the foundational data work, including data curation, wrangling, designing the database schema (ER diagram), and developing key visualizations.
+                </li>
+                 <li>
+                    <strong><a href="https://github.com/PietroGolfeto/College_Salaries" target="_blank" rel="noopener noreferrer">Analysis of College Graduate Salaries</a></strong>: Investigated US college graduate salaries by major and region through data analysis and visualization (Pandas, Matplotlib). Developed predictive models, including Linear Regression and a Multilayer Perceptron (MLP), to explore salary trends.
+                </li>
+                <li>
+                    <strong>Chemosymphony (NASA Space Apps 2024):</strong> As Team Lead, I guided this project exploring life via chemosynthesis on exoplanets. My role was centered on scientific research and project leadership rather than coding. <strong><a href="https://chemosymphony.github.io/" target="_blank" rel="noopener noreferrer">Play the Game</a> | <a href="https://www.youtube.com/watch?v=XjqyQH0NvNE" target="_blank" rel="noopener noreferrer">Watch the Demo</a></strong>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+</body>
 </html>

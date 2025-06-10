@@ -1,16 +1,9 @@
-# Hi there, I'm Pietro Golfeto 👋
+# Personal Website
 
-Welcome to my GitHub profile!
+This repository contains the code for my personal portfolio website.
 
-🌐 **Check out my personal website:** [pietrogolfeto.github.io](https://pietrogolfeto.github.io/)
+## 🌐 View the Live Site
+**[pietrogolfeto.github.io](https://pietrogolfeto.github.io/)**
 
-🎓 **About Me:**
-
-    I'm a computer science student at Unicamp with completion scheduled for July 2026 and a Undergraduate Researcher at the Hub for Artificial Intelligence and Cognitive Architectures (H.IAAC) at Unicamp.
-        
-    I'm interested in artificial intelligence, data science and software development and I'm always looking for new projects to work on.
-
-📫 **How to reach me:**
-
-- [LinkedIn](https://www.linkedin.com/in/pietro-golfeto-ba2429235/)
-- [Email](mailto:pggolfeto@gmail.com)
+## 👤 View My Full Profile
+For my detailed bio, skills, and a complete list of projects, please see my main **[GitHub Profile README](https://github.com/PietroGolfeto)**
